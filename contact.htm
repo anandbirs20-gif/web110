@@ -1,0 +1,94 @@
+<!--Anandbir Singh  04/20/2026-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="styels.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <header>
+            <img src="logo-1.jpg" alt="Jccc Logo">
+            <h2>Contact Us</h2>
+            <p> We'd love to hear from youl Please fill out the form below</p>
+        </header>
+
+        <main>
+            <form method="post" action="https://webdevbasics.net/scripts/demo.php">
+
+                <div class="form-group">
+                    <label for="firstName">First Name</label>
+                    <input type="text" id="firstName" name="firstName" maxlength="30" required>
+                </div>
+
+
+                <div class="form-group">
+                    <label for="lastname">Last Name</label>
+                    <input type="text" id="lastname" name="lastname" maxlength="30" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="phone">Phone</label>
+                    <input type="tel" id="phone" name="phone" placeholder="123-456-7890" required>
+                </div>
+
+                <div class="form-group">
+                    <label>How would you prefer we contact you?</label>
+                    <div class="contact-options">
+                        <div class="radio-option">
+                            <label for="contactEmail">Email</label>
+                            <input type="radio" id="contactEmail" name="contactPreference" value="Email" required>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <div class="contact-options">
+                        <div class="radio-option">
+                            <label for="contacttext">Text</label>
+                            <input type="radio" id="contacttext" name="contactPreference" value="Text" required>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <div class="contact-options">
+                        <div class="radio-option">
+                            <label for="contacttext">No Preference</label>
+                            <input type="radio" id="contactnoPreference" name="noPreference" value="noPreference"
+                                required>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <button type="submit">Submit</button>
+                </div>
+
+            </form>
+
+        </main>
+
+
+
+
+
+
+        <footer>
+            <p>&copy;2026 Anandbir Singh. All rights reserved.</p>
+        </footer>
+    </div>
+
+</body>
+
+</html>
